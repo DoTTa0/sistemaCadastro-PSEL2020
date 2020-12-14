@@ -1,0 +1,76 @@
+.edit {
+    background-color: #FFF;
+    width: 400px;
+    margin: 20px auto;
+    padding: 16px 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .imageEdit{
+    width: 400px;
+    
+  }
+  
+  .edit__form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .edit__form-control label {
+    margin-bottom: 5px;
+    color: #979797;
+    font-size: 16px;
+  }
+
+  
+  .edit__form-control input {
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    height: 36px;
+    padding: 5px 10px;
+  }
+
+  
+
+
+  .edit__submit-button {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #373737;
+    background:  #FFF;
+    color:#373737;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ;
+  }
+
+  .edit__submit-button:hover {
+    background: #373737;
+    color: #ffde7d;
+  }
+
+  .back-button {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #373737;
+    background:  #FFF;
+    color:#373737;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ;
+  }
+
+  .back-button:hover {
+    background:#373737;
+    color: #ffde7d;
+  }

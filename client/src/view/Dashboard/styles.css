@@ -1,0 +1,105 @@
+.dashboard {
+    background-color: #FFF;
+    width: 800px;
+    margin: 20px auto;
+    padding: 16px 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .imageDash{
+    width: 400px;
+    height: 225px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 400px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .hideAdmin{
+    display: none;
+  }
+
+  .table{
+      margin-left: 15px;
+  }
+
+  .list{
+      padding-left: 20px;
+  }
+
+  .buttons-config{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding-top: 11px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+
+  .button-user{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #373737;
+    background:  #FFF;
+    color:#373737;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ;
+  }
+
+  .button-user:hover{
+    background: #373737;
+    color: #ffde7d; 
+}
+  
+  
+  .edit__button {
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #373737;
+    background:  #FFF;
+    color:#373737;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ;
+  }
+
+  .edit__button:hover {
+    background: #373737;
+    color: #ffde7d;
+  }
+
+  .logout-button {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #373737;
+    background:  #FFF;
+    color:#373737;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ;
+  }
+
+  .logout-button:hover {
+    background:#373737;
+    color: #ffde7d;
+  }
